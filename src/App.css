@@ -1,0 +1,310 @@
+
+
+
+/* my work starts from here */
+.color-image{
+  width: 35%;
+  height: 100vh;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: linear-gradient(to bottom right, #041F1BFA, #380C4A, #3B0E46, #3D0F42, #441436, #33254E, #2B2D59, #292654, #271F4F, #240D37, #22052D, #22052D, #22052D, #22052D);
+  background-blend-mode: multiply; 
+
+}
+
+.back{
+  position: absolute;
+  width: 447px;
+  height: 245px;
+  background-image: url('back.jpg');
+  top:54% ;
+  left: 20%;
+}
+
+.front{
+  width: 447px;
+  height: 245px;
+  position: absolute;
+  left: 12%;
+  top: 10%;
+  background-image: url('front.png');
+ 
+}
+.card-cvv{
+  position: absolute;
+  top: 46%;
+  right: 12%;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.29px;
+}
+
+.logo{
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+
+.card-number{
+  position: absolute;
+  display: flex;
+  width: 99%;
+  height: 15%;
+  top: 60%;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.68px;
+}
+
+
+.card-holder{
+  position: absolute;
+  bottom: 12%;
+  left: 12%;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.47px;
+  text-transform: uppercase;
+}
+
+
+.card-expiryMM{
+  position: absolute;
+  bottom: 12%;
+  left: 75%;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.47px;
+}
+.card-expiry-slash{
+  position: absolute;
+  bottom: 12%;
+  left: 80%;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.47px;
+}
+.card-expiryYY{
+  position: absolute;
+  bottom: 12%;
+  left: 82%;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.47px;
+}
+.form{
+  position: absolute;
+  flex-shrink: 0;
+  /* border: 2px solid red; */
+  top: 30%;
+  left:60%;
+  width: 25%;
+  height: 50%;
+  }
+
+input{
+  margin-top: 2%;
+  background: transparent;
+  padding-left: 3%;
+  flex-shrink: 0;
+}
+
+
+button {
+  position: absolute;
+  top: 75%;
+  left: 0%;
+  width: 100%;
+  height: 16%;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #220930;
+  flex-shrink: 0;
+  cursor: pointer;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.16px;
+}
+
+.card-name{
+  position: absolute;
+  top:0%;
+  left:0%;
+  height: 9%;
+  width: 95%;
+  font-family: Roboto;
+font-size: 13px;
+font-weight: 700;
+line-height: 14px;
+letter-spacing: 0.155em;
+text-align: left;
+}
+
+.card-name-input{
+  position: absolute;
+  top:3%;
+  left:0%;
+  height: 9%;
+  width: 95%;
+  border-radius: 8px;
+  border: solid #88838340;
+ 
+}
+
+.card-no{
+  position: absolute;
+  top:25%;
+  left:0%;
+  height: 9%;
+  width: 95%;
+  font-family: Roboto;
+font-size: 13px;
+font-weight: 700;
+line-height: 14px;
+letter-spacing: 0.155em;
+text-align: left;
+}
+.card-no-input{
+  position: absolute;
+  top:28%;
+  left:0%;
+  height: 9%;
+  width: 95%;
+  border-radius: 8px;
+  border: solid #88838340;
+}
+.expiry{
+  position: absolute;
+  top:50%;
+  left:0%;
+  height: 9%;
+  width: 95%;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0.155em;
+  text-align: left;
+}
+.card-expiry-MM{
+  position: absolute;
+  top:53%;
+  left:0%;
+  height: 9%;
+  width: 18%;
+  border-radius: 8px;
+  border: solid #88838340;
+}
+.card-expiry-YY{
+  position: absolute;
+  top:53%;
+  left:25.5%;
+  height: 9%;
+  width: 18%;
+  border-radius: 8px;
+  border: solid #88838340;
+}
+
+.cvc{
+  position: absolute;
+  top:50%;
+  left:60%;
+  height: 9%;
+  width: 95%;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0.155em;
+  text-align: left;
+}
+.card-cvv-input{
+  position: absolute;
+  top:53%;
+  left:60%;
+  height: 9%;
+  width: 35%;
+  border-radius: 8px;
+  border: solid #88838340;
+}
+
+.name-error {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  color: red;
+  top:16%;
+  left:1%;
+}
+
+.number-error{
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  color: red;
+  top:41%;
+  left:1%;
+}
+
+.expiry-error{
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  color: red;
+  top:66%;
+  left:1%;
+}
+.cvv-error{
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  color: red;
+  top:66%;
+  left:61%;
+}
